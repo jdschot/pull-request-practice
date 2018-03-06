@@ -12,9 +12,17 @@ module.exports = {
         type: Sequelize.STRING,
         allowNull: false
       },
-      score: {
-        type: Sequelize.INTEGER,
-        default: 0
+      sport: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
+      description: {
+        type: Sequelize.STRING,
+        allowNull: false
+      },
+      colors: {
+        type: Sequelize.STRING,
+        allowNull: false
       },
       createdAt: {
         allowNull: false,
